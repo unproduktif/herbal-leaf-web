@@ -64,6 +64,15 @@ export default function Home() {
           </a>{" "}
           ·{" "}
           <a
+            href="https://github.com/unproduktif/herbal-leaf-api"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline decoration-border underline-offset-2 hover:text-accent"
+          >
+            API
+          </a>{" "}
+          ·{" "}
+          <a
             href="https://github.com/unproduktif/herbal-leaf-classification"
             target="_blank"
             rel="noopener noreferrer"
