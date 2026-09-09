@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "web": { "root": "." },
+    "classifier": { "root": "api/", "entrypoint": "main:app" }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": { "service": "classifier" } },
+    { "source": "/(.*)", "destination": { "service": "web" } }
+  ]
+}

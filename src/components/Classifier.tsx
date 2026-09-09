@@ -3,8 +3,6 @@
 import { useCallback, useRef, useState } from "react";
 import { SPECIES_INFO, SpeciesCode } from "@/lib/species";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
-
 type PredictResponse = {
   label: SpeciesCode;
   info: { common_name: string; scientific_name: string } | null;
@@ -44,7 +42,7 @@ export default function Classifier() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const res = await fetch(`${API_URL}/predict`, {
+      const res = await fetch("/api/predict", {
         method: "POST",
         body: formData,
       });

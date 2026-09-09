@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Python API service — not JS/TS, and its venv shouldn't be scanned.
+    "api/**",
   ]),
 ]);
 
