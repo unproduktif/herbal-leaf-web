@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Deployment
 
 Deployed on [Vercel](https://vercel.com). Set `NEXT_PUBLIC_API_URL` to the
-deployed API's URL (e.g. a Cloud Run service URL) in the Vercel project's
+deployed API's URL (e.g. a Render service URL) in the Vercel project's
 environment variables before deploying.
 
 ## Related repos
