@@ -55,7 +55,7 @@ export default function Home() {
           </a>{" "}
           ·{" "}
           <a
-            href="https://github.com/unproduktif/web-herbal-leaf-classification"
+            href="https://github.com/unproduktif/herbal-leaf-web"
             target="_blank"
             rel="noopener noreferrer"
             className="underline decoration-border underline-offset-2 hover:text-accent"
